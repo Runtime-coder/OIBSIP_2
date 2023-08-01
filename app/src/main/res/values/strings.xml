@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Unit Converter</string>
+    <string name="to">TO</string>
+    <string name="_0">0</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="milligram">Milligram</string>
+    <string name="gram">Gram</string>
+    <string name="calculate">calculate</string>
+    <string name="from">FROM</string>
+    <string name="meter">Meter</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="enter_value">Enter value</string>
 </resources>

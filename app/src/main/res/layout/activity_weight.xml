@@ -16,7 +16,7 @@
             android:textStyle="bold"
             android:textSize="24sp"
             android:textColor="@color/black"
-            android:text="FROM"/>
+            android:text="@string/from"/>
 
         <TextView
             android:layout_width="200dp"
@@ -24,7 +24,7 @@
             android:textStyle="bold"
             android:textSize="24sp"
             android:textColor="@color/black"
-            android:text="TO"/>
+            android:text="@string/to"/>
     </LinearLayout>
 
     <LinearLayout
@@ -39,7 +39,9 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:textSize="20sp"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/enter_value"
+        android:autofillHints="value"/>
 
     <TextView
         android:id="@+id/result"
@@ -48,7 +50,7 @@
         android:textSize="18sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:text="0" />
+        android:text="@string/_0" />
 
     </LinearLayout>
 
@@ -67,22 +69,19 @@
                 android:id="@+id/kilogram"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Kilogram" />
+                android:text="@string/kilogram" />
 
             <CheckBox
                 android:id="@+id/gram"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Gram" />
+                android:text="@string/gram" />
 
             <CheckBox
                 android:id="@+id/milligram"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Milligram" />
+                android:text="@string/milligram" />
 
     </LinearLayout>
 
@@ -97,22 +96,19 @@
                 android:id="@+id/kilogram1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Kilogram" />
+                android:text="@string/kilogram" />
 
             <CheckBox
                 android:id="@+id/gram1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Gram" />
+                android:text="@string/gram" />
 
             <CheckBox
                 android:id="@+id/milligram1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Milligram" />
+                android:text="@string/milligram" />
 
 
     </LinearLayout>
@@ -123,7 +119,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="calculate"/>
+        android:text="@string/calculate"/>
 
 
 </LinearLayout>
